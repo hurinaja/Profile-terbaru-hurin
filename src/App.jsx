@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import { translations } from "./data/translations";
+import { translations } from "./data/translation";
 import { globalStyle } from "./styles/globalStyle";
 
 import Navbar from "./components/Navbar";
