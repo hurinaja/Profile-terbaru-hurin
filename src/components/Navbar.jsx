@@ -27,7 +27,7 @@ export default function Navbar({ t, lang, setLang, dark, setDark, active }) {
     }}>
       <div style={{ maxWidth: 1200, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", height: 72 }}>
         <div style={{ fontFamily: "Syne, sans-serif", fontWeight: 800, fontSize: 22, cursor: "pointer", background: "linear-gradient(135deg, #a78bfa, #f472b6)", backgroundClip: "text", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }} onClick={() => scrollTo("home")}>
-          RP.
+          Hurin Adhana Syakira
         </div>
 
         {/* Desktop nav */}
