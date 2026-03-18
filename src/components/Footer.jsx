@@ -16,7 +16,7 @@ export default function Footer({ t }) {
   return (
     <footer style={{ background: "var(--bg)", borderTop: "1px solid var(--border)", padding: "48px 24px" }}>
       <div style={{ maxWidth: 1200, margin: "0 auto", display: "flex", flexDirection: "column", alignItems: "center", gap: 24 }}>
-        <div style={{ fontFamily: "Syne, sans-serif", fontWeight: 800, fontSize: 28, background: "linear-gradient(135deg, #a78bfa, #f472b6)", backgroundClip: "text", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>RP.</div>
+        <div style={{ fontFamily: "Syne, sans-serif", fontWeight: 800, fontSize: 28, background: "linear-gradient(135deg, #a78bfa, #f472b6)", backgroundClip: "text", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>Hurin Adhana Syakira</div>
         <div style={{ display: "flex", gap: 24, flexWrap: "wrap", justifyContent: "center" }}>
           {t.footer.links.map(link => (
             <button key={link} onClick={() => scrollTo(link)} style={{ background: "none", border: "none", color: "var(--text2)", cursor: "pointer", fontSize: 14, transition: "color 0.2s" }}
